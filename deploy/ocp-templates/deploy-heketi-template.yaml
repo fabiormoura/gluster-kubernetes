@@ -64,7 +64,7 @@ objects:
         serviceAccountName: heketi-service-account
         containers:
         - name: deploy-heketi
-          image: heketi/heketi:dev
+          image: fabiormoura/heketi:dev
           env:
           - name: HEKETI_USER_KEY
             value: ${HEKETI_USER_KEY}
